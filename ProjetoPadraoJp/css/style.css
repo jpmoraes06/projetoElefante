@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Boogaloo", sans-serif;
+    background-image: url('../img/banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo{
+    display: flex;
+
+}
+
+header{
+    background-color: #67449e;
+    color: white;
+    padding: 10px 0;
+
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+nav ul li{
+    margin: 0 15px;
+    justify-content: space-between;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
